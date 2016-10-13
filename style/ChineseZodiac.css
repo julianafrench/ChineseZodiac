@@ -1,0 +1,83 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+  font-family: arial, sans-serif;
+  color: #2b293b;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+	background-color: #babcc7;
+}
+
+div.header {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	padding: 0;
+	cursor: pointer;
+}
+button {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+}
+h1 {
+	font-style:italic;
+  color: #2b293b;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+img.logo {
+	display: block;
+	float: right;
+	margin: 0px 0px 15px 15px;
+	width: 100px;
+}
+.banner img {
+	margin: auto;
+	display: block;
+}
+td {
+	vertical-align:top;
+}
+.animals {
+	margin: auto;
+	cursor: pointer;
+	text-align: center;
+
+}
+.animals2 {
+	margin: auto;
+	cursor: pointer;
+	text-align: center;
+}
+.animals3 {
+	margin: auto;
+	cursor: pointer;
+	text-align: center;
+}
+
+#name input {
+	width:100%;
+}
+
+#email input {
+	width:100%;
+}
+textarea {
+	width:100%;
+	padding-right: 0;
+}
+div.credits {
+	font-size: 0.7em;
+}
+div.footer {
+	font-size: 0.7em;
+	text-align: center;
+}
