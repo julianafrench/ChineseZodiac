@@ -11,9 +11,8 @@ body {
 	background-color: #babcc7;
 }
 
-div.header {
+header {
 	display: block;
-	width: 80%;
 	margin: 0 auto;
 	position: relative;
 	padding: 0;
