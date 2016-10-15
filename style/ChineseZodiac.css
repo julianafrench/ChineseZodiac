@@ -73,10 +73,10 @@ textarea {
 	width:100%;
 	padding-right: 0;
 }
-div.credits {
+.credits {
 	font-size: 0.7em;
 }
-div.footer {
+footer {
 	font-size: 0.7em;
 	text-align: center;
 }
