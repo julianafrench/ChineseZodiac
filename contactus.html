@@ -1,55 +1,56 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
-	<head>
-		<title>Contact Us</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" href="style/ChineseZodiac.css"/>
-	</head>
-	<body>
-    <div class="header">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/ChineseZodiac.css"/>
+</head>
+<body>
+    <div class="container-fluid hidden-xs">
       <a class="banner" href="index.html"><img src="Images/ChineseZodiacBanner.png" alt="Banner Image" /></a>
     </div>
-    <div class="navigation">
-      <hr/>
-      <a href="index.html"><button type="button" name="homepage"><img src="Images/HomePage.png" alt="homepage" /></button></a>
-      <a href="12signs.html"><button type="button" name="12signs"><img src="Images/12Signs.png" alt="12 signs" /></button></a>
-      <a href="contactus.html"><button type="button" name="contact"><img src="Images/ContactUs.png" alt="contact us" /></button></a>
-      <hr/>
-    </div>
-		<h1>Contact Us</h1>
-		<div>
-			<form action="http://php.vncvr.ca/zodiac/" method="post">
-			<table>
-				<tr>
-					<td>Name:</td>
-					<td>
-						<div id="name">
-							<input type="text" name="Name" id="Name" maxlength="30" />
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>Email Address:</td>
-					<td>
-						<div id="email">
-							<input type="text" name="Email" id="Email" maxlength="30" />
-						</div>
-					</td>
-				</tr>
-				<tr>
-						<td>Comment:</td>
-						<td>
-							<textarea name="Comment" id="Comment" rows="7" cols="50"></textarea>
-						</td>
-				</tr>
-			</table>
-			<div>
-				<input type="hidden" name="Student1Name" id="Student1Name" value="Duncan Gonzalez" />
-				<input type="hidden" name="Student2Name" id="Student2Name" value="Juliana French" />
-				<input type="hidden" name="Set" id="Set" value="Set E" />
-				<input type="submit" value="Submit" />
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Chinese Zodiac Signs</a>
 			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="12signs.html">12 Signs</a></li>
+				<li><a href="contactus.html">Contact Us</a></li> 
+			</ul>
+		</div>
+	</nav>
+		<h1>Contact Us</h1>
+		<div class="table-responsive">
+			<form action="http://php.vncvr.ca/zodiac/" method="post">
+			<form>
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="Name">Name:</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="Name" maxlength="30">
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="Email">Email:</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="Email" maxlength="30">
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="Comment">Comment:</label>
+				</div>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="5" id="Comment"></textarea>
+				</div>
+				<div class="form-group sr-only">
+					<input type="hidden" name="Student1Name" id="Student1Name" value="Duncan Gonzalez" />
+					<input type="hidden" name="Student2Name" id="Student2Name" value="Juliana French" />
+					<input type="hidden" name="Set" id="Set" value="Set E" />
+				</div>	
+				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
 		</div>
     <div class="footer">
@@ -60,5 +61,5 @@
       <p>Set 1E</p>
       <hr/>
     </div>
-	</body>
+</body>
 </html>
