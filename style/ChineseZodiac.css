@@ -10,7 +10,6 @@ body {
   width: 80%;
 	background-color: #babcc7;
 }
-
 header {
 	display: block;
 	margin: 0 auto;
@@ -35,6 +34,9 @@ img.logo {
 .banner img {
 	margin: auto;
 	display: block;
+}
+img.img-responsive {
+	width: 100px;
 }
 td {
 	vertical-align:top;
