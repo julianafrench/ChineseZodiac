@@ -25,6 +25,11 @@ h1 {
 a {
 	text-decoration: none;
 }
+img.logo {
+	display: block;
+	float: right;
+	margin: 0px 0px 15px 15px;
+	width: 100px;
 }
 .banner img {
 	margin: auto;
